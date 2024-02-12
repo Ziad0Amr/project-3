@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Open+Sans:ital,wght@0,700;0,800;1,400&family=Roboto:wght@100;300;400;700&family=Rubik:wght@400;500;700&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/syle.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="d-flex flex-column icons">
+        <i class="fab fa-facebook-square mb-4"></i>
+        <i class="fab fa-linkedin mb-4"></i>
+        <i class="fab fa-whatsapp-square mb-4"></i>
+        <i class="fab fa-twitter-square mb-4"></i>
+        <i class="fab fa-instagram-square mb-4"></i>
+    </div>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand me-auto border-end 1px soild whith pe-4 logo" href="#"><span class="h1 text-uppercase text-light logo">the <span>luxury</span></span></a>
+                    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> -->
+                    <div class="icon-drop navbar-toggler border-1 border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span><span></span><span class="mb-1"></span>
+                    </div>
+                    </button> 
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+                            <li class="nav-item">
+                            <a class="nav-link active text-light home me-2" aria-current="page" href="#"><span>H</span>ome</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link text-light link me-2" href="#"><span>L</span>ink</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link me-2 text-light text-capitalize all-items border-start border-bottom rounded-3 border-2 border-white d-inline-block" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span>a</span>ll items <span class="arrow"></span>
+                            </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-capitalize" href="#">field watch</a></li>
+                                    <li><a class="dropdown-item text-capitalize" href="#">analog</a></li>
+                                    <li><a class="dropdown-item text-capitalize" href="#">racing watches</a></li>
+                                    <li><a class="dropdown-item text-capitalize" href="#">dive watches</a></li>
+                                    <li><a class="dropdown-item text-capitalize" href="#">smartwatches</a></li>
+                                    <li><a class="dropdown-item text-capitalize" href="#">dress watches</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light contact me-2" href="#"><span>C</span>ontact</a>
+                                </li>
+                        </ul>
+                        <form class="d-flex form">
+                            <div class="search position-relative me-3">
+                                <input class="form-control shadow-none border-light text-light  bg-dark rounded-3 search"  placeholder="Search" aria-label="Search">
+                                <i class="fas fa-search icon position-absolute"></i>
+                            </div>
+                            <button class="btn shadow-none  text-dark text-capitalize" type="submit">Search</button>
+                            <button class="btn shadow-none  text-dark ms-3 text-capitalize" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">sign in</button>
+                        </form>
+                        <div class="modal fade rounded-10 " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title h3 text-capitalize" id="exampleModalLabel">sign in</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body bg-dark">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        </div>
+                                        </form>
+                                </div>
+                                <div class="modal-footer bg-dark">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn save">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="./image/slider-1.webp" class="d-block w-100" alt="photo-1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>TORGOEN watches</h5>
+                    <p>Torgoen was established in 2009 by a group of aviation enthusiasts and watch manufacturers, who boast decades of experience producing watches for the World’s most renowned Brands.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="./image/slider-2.jpg" class="d-block w-100" alt="photo-2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>UNION watch</h5>
+                    <p>UNION GLASHÜTTE embodies the spirit of luxury German watchmaking just as much now as it did over 130 years ago.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="./image/slider-3.webp" class="d-block w-100" alt="photo-3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>TORGOEN watch</h5>
+                    <p>At Torgoen, we use only top quality materials and scrutinise the product and its components during every step of the process.</p>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+    </section>
+    <section class="section">
+        <div class="container ">
+            <div class="items-category d-flex row">
+                <div class="item-category-1 col-lg-3 col-md-6 col-sm-12">
+                    <img src="./image/GQ_HP_desktop600x8001.webp" alt="">
+                    <p>BOSS</p>
+                    <span class="text-uppercase">shop now</span>
+                </div>
+                <div class="item-category-2 col-lg-3 col-md-6 col-sm-12">
+                    <img src="./image/CALL-OUT-600x800.webp" alt="">
+                    <p>Tissot PRX</p>
+                    <span class="text-uppercase">shop now</span>
+                </div>
+                <div class="item-category-3 col-lg-3 col-md-6 col-sm-12">
+                    <img src="./image/Desktop_VivienneWestwoodSale50_600x800.webp" alt="">
+                    <span class="text-uppercase">shop now</span>
+                </div>
+                <div class="item-category-4 col-lg-3 col-md-6 col-sm-12">
+                    <img src="./image/BOSS_FW23_LadiesJewellery_550x750_Logo_O.jpg" alt="">
+                    <span class="text-uppercase">shop now</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h2 class="shadow text-light">Most Popular Collections</h2>
+            <div class="w-items row">
+                <div class="card col-lg-3 col-md-4 col-sm-12" >
+                    <img src="./image/stone-20231114_140452_360x.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Xeric Triptych Automatic Wandering Hour Stone Edition Turquoise</p>
+                        <span class="price">1,199.00 $</span>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-12" >
+                    <img src="./image/stone-xeric-triptych-automatic-abalone-black-08_360x.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Xeric Triptych Automatic Wandering Hour Stone Edition Turquoise</p>
+                        <span class="price">1,789.00 $</span>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-12" >
+                    <img src="./image/stone-xeric-triptych-automatic-black-mother-of-pearl-black-07_360x.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Xeric Triptych Automatic Wandering Hour Stone Edition Turquoise</p>
+                        <span class="price">2,599.00 $</span>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-12" >
+                    <img src="./image/stone-xeric-triptych-automatic-lapis-lazuli-black-08_360x.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Xeric Triptych Automatic Wandering Hour Stone Edition Turquoise</p>
+                        <span class="price">999.00 $</span>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-12" >
+                    <img src="./image/stone-xeric-triptych-automatic-tiger-eye-black-08_360x.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Xeric Triptych Automatic Wandering Hour Stone Edition Turquoise</p>
+                        <span class="price">785.00 $</span>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-12" >
+                    <img src="./image/triptych-0606_540x.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Xeric Triptych Automatic Wandering Hour Stone Edition Turquoise</p>
+                        <span class="price">2,999.00 $</span>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-12" >
+                    <img src="./image/triptych-0610-2_360x.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Xeric Triptych Automatic Wandering Hour Stone Edition Turquoise</p>
+                        <span class="price">3,090.00 $</span>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-12" >
+                    <img src="./image/xeric-triptych-stone-2_360x.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Xeric Triptych Automatic Wandering Hour Stone Edition Turquoise</p>
+                        <span class="price">1,299.00 $</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h2 class="shadow text-light text-uppercase">thanks for</h2>
+            <div class="teams row">
+                <div class="card text-white col-sm-12 col-md-6 col-lg-4">
+                    <div class="content content-1 card-img-overlay">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-img-overlay d-flex flex-column text">
+                                <div class="card-header">
+                                    <h5 class="card-title">All thanks and appreciation</h5>
+                                    <span> 
+                                        <i class="fas fa-clock"></i>
+                                        October 15, 2020
+                                    </span>
+                                </div>
+                                <div class="cardfoo mb-4">
+                                    <div class="media media-1">
+                                        
+                                    </div>
+                                    <p class="card-text mb-0 fs-5">Eng.Ziad Amr Emam</p>
+                                    <p class="card-text">Director of Frontend</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-white col-sm-12 col-md-6 col-lg-4">
+                    <div class="content content-2 card-img-overlay">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-img-overlay d-flex flex-column text">
+                                <div class="card-header">
+                                    <h5 class="card-title">All thanks and appreciation</h5>
+                                    <span> 
+                                        <i class="fas fa-clock"></i>
+                                        March 9, 2018
+                                    </span>
+                                </div>
+                                <div class="cardfoo mb-4">
+                                    <div class="media media-2">
+                                        
+                                    </div>
+                                    <p class="card-text mb-0 fs-5">Eng.Malek Sayed Alaa</p>
+                                    <p class="card-text">Director of Backend</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-white col-sm-12 col-md-6 col-lg-4">
+                    <div class="content content-3 card-img-overlay">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-img-overlay d-flex flex-column text">
+                                <div class="card-header">
+                                    <h5 class="card-title">All thanks and appreciation</h5>
+                                    <span> 
+                                        <i class="fas fa-clock"></i>
+                                        April 28, 2022
+                                    </span>
+                                </div>
+                                <div class="cardfoo mb-4">
+                                    <div class="media media-3">
+                                        
+                                    </div>
+                                    <p class="card-text mb-0 fs-5">Eng.Abdo Amr Ragab</p>
+                                    <p class="card-text">Director of UI/UX</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h2 class="shadow text-light text-uppercase">New Collections</h2>
+            <div class="groups new">
+                <div class="group group-1 mb-5">
+                    <div class="body">
+                        <div class="group-title">
+                            <h2 class="h2">Stainless Steel GN100 </h2>
+                            <i class="fas fa-calendar-alt"></i>
+                            <span class="times">Mon,May 25th 2020</span>
+                            <div class="arrow"></div>
+                        </div>
+                        <p>"This Automatic Mechanical Men Watch Fashion Luxury Stainless Steel Male Clock GN1256 is a stylish and versatile timepiece that is perfect for any occasion. The watch features a stainless steel case and bracelet, a hardlex dial window, and luminous hands and hour markers."</p>
+                        <div class="ptn mt-5">
+                            <button class=" ptnn Podcast">Podcast</button>
+                            <button class=" ptnn time">55 mins</button>
+                            <button class=" ptnn play">Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <img class="group-image" src="./image/automatic-mechanical-men-s-simple-watch-fashion-stainless-steel-gn100-touchy-style-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="group group-2 mb-5">
+                    <div class="img me-5">
+                        <img class="group-image im_G" src="./image/f10bf2b696c1dd205dd15afb009a2cd2.webp" alt="">
+                    </div>
+                    <div class="body bod d-flex">
+                        <div class="con">
+                            <div class="group-title">
+                                <h2 class="h2">Black watch</h2>
+                                <i class="fas fa-calendar-alt"></i>
+                                <span class="times">Mon,May 25th 2020</span>
+                                <div class="arrow"></div>
+                            </div>
+                            <p>"Men's Black Strap Watch Bracelet Set Casual School Season Watch Set at the lowest price at Temu. Free shipping and returns on kids' fashion on sale at ...‏
+                                "</p>
+                            <div class="ptn  mt-5">
+                                <button class="ptnn Podcast">Podcast</button>
+                                <button class="ptnn time">55 mins</button>
+                                <button class="ptnn play">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group group-3 mb-5">
+                    <div class="body">
+                        <div class="group-title">
+                            <h2 class="h2">Rolex</h2>
+                            <i class="fas fa-calendar-alt"></i>
+                            <span class="times">Mon,May 25th 2020</span>
+                            <div class="arrow"></div>
+                        </div>
+                        <p>Illustrate the brand's ambition to master every aspect of watchmaking. Only through exacting demands are exemplary timepieces formed. Wide range. Timeless style. Unparalleled prestige. Certified precision.
+
+                            </p>
+                        <div class="ptn mt-5">
+                            <button class="ptnn Podcast">Podcast</button>
+                            <button class="ptnn time">55 mins</button>
+                            <button class="ptnn play">Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <img class="group-image" src="./image/Rolex-Bob.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="section">
+        <div class="l_content d-flex">
+            <div class="cont_1 cont">
+                <hr>
+                <h3>Good Company</h3>
+                <hr>
+                <div class="l_body">
+                    <ul>
+                        <li>Tel : 000-000-000</li>
+                        <li>Address : EGYPT</li>
+                        <li>Fax : 000-000-000</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cont_2 cont">
+                <hr>
+                <h3>Important links</h3>
+                <hr>
+                <div class="l_body">
+                    <ul>
+                        <li>Visit Us</li>
+                        <li>Take alook</li>
+                        <li>Your health is more important</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cont_3 cont">
+                <hr>
+                <h3>Vision</h3>
+                <hr>
+                <div class="l_body">
+                    <ul>
+                        <li>Serveices for all</li>
+                        <li>Provide best serveices</li>
+                        <li>you will be better than before</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="hr">
+        <div class="last">
+            COPYRIGHT © 2020 ZIAD AMR EMAM, GOOD COMPANY. ALL RIGHTS
+            <hr class="hr">
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
